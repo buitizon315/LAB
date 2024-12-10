@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plagiarism and Cybersecurity Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Plagiarism and Cybersecurity Guide</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#introduction">Introduction</a>
+        <a href="#plagiarism">Plagiarism</a>
+        <a href="#cybersecurity">Cybersecurity</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2> <!-- "Home" will be aligned to the left -->
+        <div class="center-top-text">
+            <h1><strong>MS. CARLA EUNICE CAMPO BUITIZON</strong></h1>
+        </div>
+        <div class="home-content">
+            <img src="images/Profile.jpg" alt="Carla Eunice Buitizon">
+            <p>Hi, I’m Carla Eunice Buitizon, 19 years of age, and currently studying at Sorsogon College of Criminology Inc. This website I made is about Cybersecurity and Plagiarism. Both of them are important issues in today's digital age, as they can impact individuals, organizations, and society as a whole. As you dive through this website, I hope that you can learn more about the topics and broaden your knowledge on understanding more about Cybersecurity and Plagiarism.</p>
+        </div>
+        <button onclick="alert('Welcome to my comprehensive guide on Plagiarism and Cybersecurity. Explore the sections to learn about plagiarism, its legal consequences, and famous cases. Also, understand the threats posed by malware, viruses, and spam, and discover tips to protect yourself online.')">Click me</button>
+    </section>
+    
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <video controls>
+            <source src="videos/PLAGIARISM.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>In today’s digital age, the integrity of information and the security of data are paramount. This guide sheds light on two critical aspects: Plagiarism and Cybersecurity.</p>
+        <p>Plagiarism undermines academic and professional work by appropriating others' ideas without acknowledgment. Cybersecurity, on the other hand, involves protecting systems and data from digital attacks. Both issues have significant implications in education, business, and personal contexts.</p>
+        <p>Through this guide, I aim to provide insights and practical advice to address these challenges.</p>
+    </section>
+
+    <section id="plagiarism">
+        <h2>Understanding Plagiarism</h2>
+        <p>Plagiarism is the act of using someone else’s work, ideas, or intellectual property without proper attribution, presenting it as your own. This includes copying text directly, paraphrasing without proper citation, or using someone else's research without acknowledgment. It's a serious academic offense that can lead to severe consequences, including failing a course, suspension, or even expulsion. To avoid plagiarism, always cite your sources correctly, paraphrase ideas in your own words, and give credit to the original author. Remember, academic integrity is essential, and plagiarism undermines the value of your work and the learning process.</p>
+
+        <h3>Famous Cases of Plagiarism</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Incident</th>
+                <th>Consequence</th>
+                <th>Image</th>
+            </tr>
+            <tr>
+                <td>Jayson Blair</td>
+                <td>Fabricated stories in The New York Times</td>
+                <td>Resigned</td>
+                <td><img src="images/JAYSON_BLAIR.jpg" alt="Jayson Blair"></td>
+            </tr>
+            <tr>
+                <td>Joe Biden</td>
+                <td>Plagiarized a speech</td>
+                <td>Withdrew from 1988 race</td>
+                <td><img src="images/JOE_BIDEN.avif" alt="Joe Biden"></td>
+            </tr>
+            <tr>
+                <td>Melania Trump</td>
+                <td>Copied Michelle Obama's speech</td>
+                <td>Public backlash</td>
+                <td><img src="images/Trump_Obama.jpg" alt="Melania Trump"></td>
+            </tr>
+        </table>
+        <button onclick="alert('Always cite your sources correctly to avoid Plagiarism.')">TIPS</button>
+    </section>
+
+    <section id="cybersecurity">
+        <h2>Understanding Cybersecurity Threats</h2> <!-- This heading will be left-aligned -->
+        <video controls>
+            <source src="videos/CYBERSECURITY.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <table>
+            <tr>
+                <th>Threat Type</th>
+                <th>Image</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Viruses</td>
+                <td><img src="images/VIRUS.webp" alt="Viruses"></td>
+                <td>Malicious programs that disrupt operations.</td>
+            </tr>
+            <tr>
+                <td>Malware</td>
+                <td><img src="images/MALWARE.jpg" alt="Malware"></td>
+                <td>Software designed to harm systems.</td>
+            </tr>
+            <tr>
+                <td>Spam</td>
+                <td><img src="images/SPAM.jpg" alt="Spam"></td>
+                <td>Unsolicited messages often containing harmful links.</td>
+            </tr>
+        </table>
+        <button onclick="alert('Follow cybersecurity tips to stay safe online!')">Cybersecurity Tips</button>
+    </section>
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>If you have any concerns or additional questions, please feel free to reach out below:</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="concerns">Your Concerns (for future reference):</label>
+            <textarea id="concerns" name="concerns" placeholder="Enter your concerns here" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Plagiarism and Cybersecurity Guide</p>
+    </footer>
+</body>
+</html>

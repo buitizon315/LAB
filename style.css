@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #ffe6f2; /* Light pink background */
+    color: #333;
+}
+
+header {
+    background: #ff99cc; /* Pink header background */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #cc6699; /* Darker pink for navigation */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffccdd;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #cc6699;
+    border-bottom: 3px solid #ff99cc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+section p, section ul {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ffccdd;
+}
+
+button {
+    background-color: #cc6699;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #ff99cc;
+}
+
+footer {
+    background: #cc6699;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 0.9rem;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Contact Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #cc6699;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff99cc;
+}
+
+/* Left-align the "Home" title */
+#home h2 {
+    text-align: left; /* Aligns "Home" to the left */
+    margin-bottom: 20px; /* Adds spacing below the title */
+    color: #cc6699; /* Optional: Match the theme color */
+    font-size: 1.8rem; /* Optional: Adjust font size */
+}
+
+.home-content {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px;
+}
+/* Center alignment for the "MS. CARLA EUNICE CAMPO BUITIZON" heading */
+.center-top-text {
+    text-align: center; /* Aligns text to the center horizontally */
+    margin: 20px 0; /* Adds space above and below the heading */
+}
+
+.center-top-text h1 {
+    font-size: 2.5rem; /* Larger font for emphasis */
+    font-weight: bold;
+    color: #cc6699; /* Pink color to match the theme */
+}
+
+/* Additional centering for the Home content */
+.home-content {
+    text-align: center; /* Aligns all content in the center */
+    margin: 0 auto; /* Centers the entire block */
+    max-width: 800px; /* Optional: Restrict width for better readability */
+}
+
+.home-content img {
+    display: block; /* Ensure the image is a block element */
+    margin: 20px auto; /* Center image horizontally with spacing */
+    max-width: 200px; /* Optional: Adjust image size */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-content p {
+    margin-top: 20px;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.home-content img {
+    max-width: 15%; /* Increase width for a larger image */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    float: left; /* Ensures the image stays on the left side */
+    margin-right: 20px; /* Add spacing between the image and text */
+}
+
+
+.introduction-content {
+    display: flex;
+    flex-direction: column; /* Stacks elements vertically */
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Centers the text content */
+    margin-bottom: 20px; /* Adds spacing below the section */
+}
+
+.introduction-content video {
+    display: block; /* Ensures the video acts as a block element */
+    margin-bottom: 15px; /* Adds spacing between the video and the text */
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for aesthetics */
+}
+
+.introduction-content p {
+    font-size: 1rem; /* Adjust text size for readability */
+    line-height: 1.8; /* Add line spacing for better readability */
+    margin-top: 10px; /* Add space between the video and the text */
+}
+
+#introduction video {
+    display: block; /* Ensures the video acts like a block element */
+    margin: 0 auto; /* Centers the video horizontally */
+    max-width: 100%; /* Makes sure the video is responsive */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left-align the "Understanding Cybersecurity Threats" title */
+#cybersecurity h2 {
+    text-align: left; /* Aligns the heading to the left */
+    margin-bottom: 20px; /* Adds spacing below the heading */
+    color: #cc6699; /* Optional: Match the theme color */
+    font-size: 1.8rem; /* Optional: Adjust font size */
+}
+
+
+/* Center the video in the #cybersecurity section */
+#cybersecurity video {
+    display: block; /* Ensures the video behaves like a block element */
+    margin: 0 auto; /* Centers the video horizontally */
+    max-width: 100%; /* Ensures the video doesn't overflow */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+table {
+    margin: 20px auto; /* Centers the table horizontally */
+    margin-top: 20px; /* Ensure table is well-separated from the video */
+    text-align: left; /* Maintains default text alignment inside the table */
+}
+table img {
+    max-width: 100px; /* Adjust width to fit the table */
+    max-height: 100px; /* Maintain proportional size */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    object-fit: cover; /* Ensures the image fits without distortion */
+}
+
